@@ -1,0 +1,35 @@
+# SelfBuilder Template - Tool Requirements
+
+## Essential for Copilot Effectiveness:
+# - Git (version control and change tracking)
+# - Language-specific linters/formatters (ESLint, Prettier, Black, etc.)
+# - Testing framework for chosen language (Jest, pytest, etc.)
+# - MCP server for project management (when available)
+
+## User Must Configure:
+# 1. Update .copilot/context.md with project specifics
+# 2. Choose and configure language tools in .tools/
+# 3. Set up project-specific prompts in .copilot/prompts/
+# 4. Define working modes in .tools/modes/
+# 5. Configure MCP servers for enhanced capabilities
+
+## Recommended MCP Servers:
+# - File management server
+# - Git operations server  
+# - Testing automation server
+# - Code analysis server
+# - Database interaction server (if applicable)
+
+## Language-Specific Tools (Choose Based on Your Project):
+# Python: black, pylint, pytest, mypy
+# JavaScript/TypeScript: eslint, prettier, jest, typescript
+# Go: gofmt, golint, go test
+# Rust: rustfmt, clippy, cargo test
+# Java: checkstyle, spotbugs, junit
+
+## Optional Enhancements:
+# - CI/CD pipeline templates
+# - Docker configuration
+# - Development environment setup (devcontainer, etc.)
+# - Pre-commit hooks
+# - Code coverage tools

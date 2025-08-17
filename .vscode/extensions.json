@@ -1,0 +1,7 @@
+{
+  // Recommended extensions for this template
+  "recommendations": [
+    "GitHub.copilot",
+    "GitHub.copilot-chat"
+  ]
+}
